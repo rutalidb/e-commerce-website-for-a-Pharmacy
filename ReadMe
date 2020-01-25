@@ -1,0 +1,6 @@
+Project Description
+Developed an e-commerce website for online pharmacy. 
+After logging in, the available products/services in the system are listed to the user. Any medicine can be searched in the search box. 
+The user can also filter out the medicines based on categories provided. Paging functionality for listing products/services has been implemented. After selecting a particular medicine, the user can update the quantity of the product. User can also update items in the cart, like removing items from the cart and updating the product’s quantity. The project also shows the history of purchases or saved lists for the user. After selecting the products, the user goes for the payment option and enters the billing details. In the billing section, promo code or deal code can be applied, resulting in some discount for the final bill due.
+For the admin part : The admin can view, delete and insert the products and category to the table. He/she can also view the users and their orders.
+Additional feature: The user can enter a coupon code to get a discount on his/her total bill.
