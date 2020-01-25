@@ -1,0 +1,229 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 4.3rem !important;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem !important;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.error {
+	padding: 0px 2px;
+	color: red;
+	border: 2px solid #c99;
+}
+
+.success {
+	padding: 0px 2px;
+	color: #4BB543;
+	border: 2px solid #4BB543;
+}
+
+span{
+	background-color: #ffffff;
+}
+
+/* Base */
+body {
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 16px; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none; }
+
+.text-black {
+  color: #000; }
+
+
+.btn {
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: 0.2s all ease-in-out !important;
+  -o-transition: 0.2s all ease-in-out !important;
+  transition: 0.2s all ease-in-out !important;
+  top: 0;
+  letter-spacing: .05em; }
+  .btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  .btn.btn-secondary {
+    background-color: #e6e7e9;
+    border-color: #e6e7e9;
+    color: #000; }
+  .btn.btn-sm {
+    font-size: 14px !important;
+    padding: 10px 20px !important; }
+  .btn.btn-primary {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .2em; }
+  .btn:hover {
+    -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    top: -2px; }
+	
+footer{
+	padding-top:4rem;
+	padding-bottom:4rem
+}
+
+.features-icons, .site-section{
+	padding-top:6rem
+}
+
+.features-icons .features-icons-item{
+	max-width:40rem
+}
+
+.site-section-heading{
+	padding-bottom: 4rem;
+}
+
+.site-blocks-cover{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 600px;
+}
+
+.site-blocks-cover h1 {
+	padding-top: 15rem;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000; 
+}@media (min-width: 768px) {
+      .site-blocks-cover h1 {
+        font-size: 45px; }
+		
+.site-blocks-cover p {
+    color: #333333;
+    font-size: 20px;
+    line-height: 35px; 
+	font-weight: 400;
+}
+	
+.site-logo{
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #25262a; }
+	
+.site-navigation .site-menu > li {
+    display: inline-block;
+	padding: 10px 5px;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color: #000;
+	font-size: 15px;
+	text-decoration: none !important;
+}
+	  
+.site-navigation .site-menu .active > a {
+      color: black; 
+}	  
+
+.site-top-icons ul li {
+      display: inline-block;
+      padding: 10px 5px; }
+	  
+.features-icons .features-icons-item .features-icons-icon{
+	height:7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i{
+	font-size:4.5rem
+}
+
+.site-block-search {
+  position: relative; }
+  .site-block-search .icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .site-block-search input {
+    padding-left: 40px;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; }
+    .site-block-search input:focus, .site-block-search input:active {
+      padding-left: 25px; }
+
+.sitefooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
